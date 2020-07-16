@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>PREMIER PHONE login</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap-4.5.0-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap-4.5.0-dist/css/bootstrap-reboot.css" />
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="inner">
+            <a href="index.html" class="logo">Premier Phone</a>
+            <nav id="nav">
+                <a href="index.html">Inicio</a>
+                <a href="index.html#three">contato</a>
+                <a class="singup" href="login.html">Sing Up</a>
+            </nav>
+        </div>
+    </header>
+    <a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+
+    <div class="row">
+        <div class="col-sm-4 offset-md-4 container2">
+            <div class="admin-form ">
+                <div class="admin-form-title align-center txtLogin">Log In</div>
+                <div class="admin-form-body">
+                    <form method="POST" action="userauthentication.php">
+                        <input type="text" name="usuario" id=usuario class="form-control" placeholder="Usuário"><br>
+                        <input type="password" name="senha" id=senha class="form-control" placeholder="Senha"><br>
+                        <select class="mb-4" name="demo-category" id="demo-category ">
+                            <option value="vazio">Tipo de usuario</option>
+                            <option value="func">Funcionario</option>
+                            <option value="client">Cliente</option>
+                        </select>
+                        <input type="submit " value="Entrar " name="autenticar " class="btn btn-outline-orange btn-lg btn-block ">
+
+                    </form>
+                </div>
+            </div>
+
+
+
+            <!-- Scripts -->
+            <script src="assets/js/jquery.min.js "></script>
+            <script src="assets/js/skel.min.js "></script>
+            <script src="assets/js/util.js "></script>
+            <script src="assets/js/main.js "></script>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>
+</body>
+
+</html>
