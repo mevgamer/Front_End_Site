@@ -18,33 +18,32 @@
             <a href="index.html" class="logo">Premier Phone</a>
             <nav id="nav">
                 <a href="index.html">Inicio</a>
-                <a href="index.html#three">contato</a>
+                <a href="#three">contato</a>
                 <a class="singup" href="login.html">Sing Up</a>
             </nav>
         </div>
     </header>
     <a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 
-
-    <div class="row">
-        <div class="col-sm-4 offset-md-4 container2">
-            <div class="admin-form ">
-                <div class="admin-form-title align-center txtLogin">Log In</div>
-                <div class="admin-form-body">
-                    <form method="POST" action="userauthentication.php">
-                        <input type="text" name="usuario" id=usuario class="form-control" placeholder="Usuário"><br>
-                        <input type="password" name="senha" id=senha class="form-control" placeholder="Senha"><br>
-                        <select class="mb-4" name="demo-category" id="demo-category ">
-                            <option value="vazio">Tipo de usuario</option>
-                            <option value="func">Funcionario</option>
-                            <option value="client">Cliente</option>
-                        </select>
-                        <input type="submit " value="Entrar " name="autenticar " class="btn btn-outline-orange btn-lg btn-block ">
-
-                    </form>
+    <section>
+        <div class="row">
+            <div class="col-sm-4 offset-md-4 container2">
+                <div class="admin-form ">
+                    <div class="admin-form-title align-center txtLogin">Log In</div>
+                    <div class="admin-form-body">
+                        <form method="POST" action="userauthentication.php">
+                            <input type="text" name="usuario" id=usuario class="form-control" placeholder="Usuário"><br>
+                            <input type="password" name="senha" id=senha class="form-control" placeholder="Senha"><br>
+                            <select class="mb-4" name="demo-category" id="demo-category ">
+                                <option value="vazio">Tipo de usuario</option>
+                                <option value="func">Funcionario</option>
+                                <option value="client">Cliente</option>
+                            </select>
+                            <input type="submit " value="Entrar " name="autenticar " class="btn btn-outline-orange btn-lg btn-block ">
+                        </form>
+                    </div>
                 </div>
-            </div>
-
+    </section>
 
 
             <!-- Scripts -->
